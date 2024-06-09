@@ -1,6 +1,6 @@
 
-import './ApartmentGrid.css'
-import './Apartment.css'
+import './ApartmentGrid.scss'
+import './Apartment.scss'
 import {NavLink} from "react-router-dom"
 
 function Apartement() {

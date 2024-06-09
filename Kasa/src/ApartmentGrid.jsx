@@ -1,5 +1,5 @@
 
-import './ApartmentGrid.css'
+import './ApartmentGrid.scss'
 import Apartment from "./Apartemnt.jsx"
 
 function ApartmentGrid() {
