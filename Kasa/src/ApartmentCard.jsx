@@ -1,9 +1,9 @@
 
 import './ApartmentGrid.scss'
-import './Apartment.scss'
+import './ApartmentCard.scss'
 import {NavLink} from "react-router-dom"
 
-function Apartement() {
+function ApartementCard() {
   return (
     <div className='apartment'> 
     <NavLink to ="/flat">
@@ -13,4 +13,4 @@ function Apartement() {
   )
 }
 
-export default Apartement
+export default ApartementCard

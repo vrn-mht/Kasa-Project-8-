@@ -1,16 +1,16 @@
 
 import './ApartmentGrid.scss'
-import Apartment from "./Apartemnt.jsx"
+import ApartmentCard from "./ApartmentCard.jsx"
 
 function ApartmentGrid() {
   return (
     <div className='grid' >
-      <Apartment />
-      <Apartment />
-      <Apartment />
-      <Apartment />
-      <Apartment />
-      <Apartment />
+      <ApartmentCard />
+      <ApartmentCard />
+      <ApartmentCard />
+      <ApartmentCard />
+      <ApartmentCard />
+      <ApartmentCard />
     </div>
   )
 }

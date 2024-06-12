@@ -1,0 +1,60 @@
+@import "../src/scss/variables.scss";
+
+.apartment__header{
+    display: flex;
+    margin-bottom: 1rem;
+    @media screen and  (width <= 768px){
+        flex-direction: column;
+        
+    }
+    .apartment__owner{
+        margin-left: auto;
+        @media screen and  (width <= 768px) {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            margin-left: 0;
+            align-items: center;
+        }
+
+    }
+    h3 {
+        display: flex;
+        align-items: center;
+        color: $color-primary;
+        font-weight: 400;
+        flex-direction: column;
+        @media screen and  (width <= 768px) {
+            font-size: 12px;
+        }
+    }
+    .apartment__owner__details{
+        display: flex;
+        .apartment__owner__badge{
+            height: 64px;
+            width: 64px;
+            border-radius: 50%;
+            background-color: #C4C4C4;
+            margin-left: 10px;
+            @media screen and  (width <= 768px){
+                height: 32px;
+                 width: 32px;
+            }
+        }
+       
+    }
+    .apartment__owner__stars{
+        display: flex;
+        justify-content: center;
+        color: $color-primary;
+        color: red;
+        font-size: 37px;
+        @media screen and  (width <= 768px){
+            font-size: 18px
+        }
+        .off{
+            color: #E3E3E3;
+            ;
+        }
+    }
+}

@@ -1,18 +1,19 @@
 import './ApartmentPages.scss'
+import {DescriptionPanel } from '../components/DescriptionPanel'
+import ImageBanner from '../components/ImageBanner'
+import ApartmentHeader from '../components/ApartmentHeader'
+
 
 function ApartmentPages() {
   return (
     <div className='apartment-page'>
-      <div>
-        <img src="./apartment-page.png" alt="Photo de l'appartment" />
-      </div>
-      <div className="apartment__title"> 
-            <h1></h1>
-            <h2></h2>
-            <p>Cozy</p>
-            <p>Canal</p>
-            <p>Paris 10</p>
-        </div>
+     <ImageBanner />
+      <ApartmentHeader />
+                <div className="apartment__description__area">
+           <DescriptionPanel/>
+           <DescriptionPanel/>
+           </div>
+            
     </div>
   )
 }
