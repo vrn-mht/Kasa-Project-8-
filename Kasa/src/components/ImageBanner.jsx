@@ -1,9 +1,9 @@
 
- export function ImageBanner() {
+ export function ImageBanner(props) {
   return (
     <div>
-    <img className="img-desktop" src="./apartment-page.png" alt="Photo de l'appartment" />
-    <img className="img-mobile" src="./short-apartment-page.png" alt="Photo de l'appartment Mobile" />
+    <img className="img-desktop" src={props.imageUrl} alt="Photo de l'appartment" />
+    {/* <img className="img-mobile" src={props.imageUrl} alt="Photo de l'appartment Mobile" /> */}
   </div>
   )
 }

@@ -1,6 +1,7 @@
 @import "../src/scss/variables.scss";
 
 .description__panel{
+        flex-basis: 50%;
     @media screen and (width <= 768px){
         width: 100%;
     }

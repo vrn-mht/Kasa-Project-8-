@@ -30,11 +30,10 @@
     }
     .apartment__owner__details{
         display: flex;
-        .apartment__owner__badge{
+        .apartment__owner__badge img {
             height: 64px;
             width: 64px;
             border-radius: 50%;
-            background-color: #C4C4C4;
             margin-left: 10px;
             @media screen and  (width <= 768px){
                 height: 32px;
@@ -47,13 +46,13 @@
         display: flex;
         justify-content: center;
         color: $color-primary;
-        color: red;
+        color: $grid-background-dark;
         font-size: 37px;
         @media screen and  (width <= 768px){
             font-size: 18px
         }
-        .off{
-            color: #E3E3E3;
+        .on{
+            color: $color-primary
             ;
         }
     }

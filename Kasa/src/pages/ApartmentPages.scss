@@ -17,6 +17,7 @@
             flex-direction: column;
         }
     }
+   
    }
     .apartment__tags{
     display: grid;
@@ -45,15 +46,19 @@
 
 img {
     width: 100%;
+    margin-bottom: 1rem;
 }
 .img-mobile{
-    display: none;
-    @media screen and (width <= 570px) {
-        display: block;
-    } 
+    // display: none;
+    // @media screen and (width <= 570px) {
+    //     display: block;
+    // } 
 }
 .img-desktop {
-    @media screen and (width <= 570px) {
-        display: none;
-    }
+height: 415px;
+border-radius:1em;
+object-fit: cover;
+    // @media screen and (width <= 570px) {
+    //     display: none;
+    // }
 }

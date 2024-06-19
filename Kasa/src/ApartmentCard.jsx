@@ -1,17 +1,21 @@
 
 import './ApartmentGrid.scss'
 import './ApartmentCard.scss'
-import {NavLink} from "react-router-dom"
+import {Link} from "react-router-dom"
+
 
 function ApartementCard(props) {
-  console.log("props dans apartment card:", props);
+  
+
   return (
-    <NavLink to ="/flat">
+    <Link to ="/flat" state = {{ 
+      apartmentId: props.id
+  }}>
     <div className='apartment'>
-      <img src={props.imageUrl} alt="" /> 
+      <img src={props.imageUrl} alt="Apartment image" /> 
       <div className='apartment_subtitle'>{props.title}</div>
     </div>
-    </NavLink>
+    </Link>
   )
 }
 
