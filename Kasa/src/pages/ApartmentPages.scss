@@ -13,6 +13,7 @@
 
     }
     .apartment__description__area{
+        overflow: hidden;
         @media screen and (width <= 768px) {
             flex-direction: column;
         }
